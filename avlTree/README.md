@@ -15,3 +15,7 @@ Operation|Average| Worst |
 | Search |O(logn)|O(logn)|
 | Insert |O(logn)|O(logn)|
 | Delete |O(logn)|O(logn)|
+
+### Example ###
+
+![AVL Tree Example](https://github.com/jharris319/100P-DSAL/blob/master/avlTree/graph.png)
