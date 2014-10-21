@@ -1,7 +1,7 @@
 Dijkstra's Algorithm
 --------------------
 
-A graph search algorithm, written in C.
+A graph search algorithm, written in Java.
 
 #### Synopsis ####
 
