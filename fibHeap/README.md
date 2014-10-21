@@ -7,7 +7,7 @@ A heap data structure, written in Java.
 
 Fibonacci heaps support a set of operations that constitute what is known as a "mergable heap". These are: make-heap, insert, minimum, extract-min, and union. Fibonacci heaps also support two additional operations: decrease-key and delete. The amortized runtime of all of the previously mentioned procedures are constant with the exception of extract-min and delete, both of which are O(logn).
 
-### Asymtotic Analysis ###
+#### Asymptotic Analysis ####
 
 Procedure|Amortized| Worst |
 | ------ | ----- | ------|
@@ -19,6 +19,6 @@ Procedure|Amortized| Worst |
 | Decrease-key |Θ(1)|O(logn)|
 | Delete |Θ(logn)|O(logn)|
 
-### Example ###
+#### Example ####
 
 ![Fib Heap Example](https://github.com/jharris319/100P-DSAL/blob/master/fibHeap/fib.png)
