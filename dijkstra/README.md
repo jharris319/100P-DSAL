@@ -9,5 +9,4 @@ Dijkstra's algorithm, written in 1956 by Edsger Dijkstra, solves the single-sour
 
 ### Example ###
 
-![Dijkstra's Algorithm Example](https://github.com/jharris319/100P-DSAL/blob/master/dijkstra/graph.png)
-Dijkstra's Algorithm from node 2
+![Dijkstra's Algorithm Example](https://github.com/jharris319/100P-DSAL/blob/master/dijkstra/graph.png "Dijkstra's Algorithm from Node 2")
