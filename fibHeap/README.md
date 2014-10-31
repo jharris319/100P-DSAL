@@ -5,7 +5,7 @@ A heap data structure, written in Java.
 
 #### Synopsis ####
 
-Fibonacci heaps support a set of operations that constitute what is known as a "mergable heap". These are: make-heap, insert, minimum, extract-min, and union. Fibonacci heaps also support two additional operations: decrease-key and delete. The amortized runtime of all of the previously mentioned procedures are constant with the exception of extract-min and delete, both of which are O(logn).
+Fibonacci heaps support a set of operations that constitute what is known as a "mergable heap." These operations are: make-heap, insert, find-min, extract-min, and union. Fibonacci heaps are desirable when the number of extract-min and delete operations are small in relation to the other operations performed. This is a result of the consolidation of root nodes after extracting the minimum to ensure that each root in the root list has a unique degree. Fibonacci heaps are considered to have "lazy" insert and union operations. That is, the work of consolidation is built up until an extraction is performed. This facilitates the Θ(1) runtime of the insert and merge operations at the cost of a potential increase in runtime of delete operations.  Much like a [Binomial Heap](en.wikipedia.org/wiki/Binomial_heap), Fibonacci heaps are not designed to efficiently support the search operation and thus several Fibonacci heap operations require a pointer to a node in the heap.
 
 #### Asymptotic Analysis ####
 
